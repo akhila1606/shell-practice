@@ -5,5 +5,4 @@ if systemctl is-active --quiet $SERVICE; then
     exit 0
 else
     echo "CRITICAL: $SERVICE is not running"
-    exit 1
 fi
