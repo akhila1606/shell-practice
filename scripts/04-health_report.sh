@@ -10,4 +10,4 @@ echo "memory usage"
 free -h
 echo "system uptime"
 uptime
-echo "==========report end=========="
+echo "==========report end==========
