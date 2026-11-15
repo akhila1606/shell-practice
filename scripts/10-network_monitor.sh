@@ -7,7 +7,7 @@ echo "server ip address"
 hostname -I
 echo
 echo "checking network connectivity"
-if ping -c 4 google.com > /dev/null 2&1
+if ping -c 4 google.com > /dev/null 2>&1
 then
 echo "Internet is reachable"
 else
