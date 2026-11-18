@@ -1,15 +1,16 @@
 #!/bin/bash
-source ="/etc"
+
+SOURCE="/etc"
 DEST="/tmp/backup"
-mkdir -p $DEST
+
+mkdir -p "$DEST"
+
 DATE=$(date +%Y%m%d%H%M%S)
-tar -czf $DEST/backup_$DATE.tar.gz $source
-<<<<<<< Updated upstream
+
+tar -czf "$DEST/backup_$DATE.tar.gz" "$SOURCE"
+
 if [ $? -eq 0 ]; then
-    echo "Backup completed successfully:"
+    echo "Backup completed successfully!"
 else
     echo "Backup failed!"
 fi
-=======
-echo "Backup completed successfully!"
->>>>>>> Stashed changes
