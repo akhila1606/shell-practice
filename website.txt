@@ -1,1 +1,2 @@
-Website Name : My DevOps Project
+Website Status: Production
+Previous Status: Maintenance
